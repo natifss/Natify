@@ -1,0 +1,68 @@
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #d71f78;
+    color: #fff;
+    
+}
+
+.container{
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+   
+}
+
+@media (min-width:1200px)
+{
+    .containeer{
+        max-width: 1200px;
+    }
+
+}
+
+
+header .toolbar{
+    display: flex;
+    align-items: center;
+
+
+}
+
+header .toolbar h6{
+
+    margin:0;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.0075rem;
+}
+
+header .toolbar ul{
+    display: flex;
+    list-style: none;
+    padding-left: 2rem;
+
+
+}
+
+header .toolbar  li{
+   padding: 0.3rem 0.5rem;
+}
+
+header .toolbar a {
+
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+header a.active {
+    color:rgba(0,0,0,0.3); 
+
+
+
+}
